@@ -10,4 +10,90 @@ Version: 3.5.3.1707413230
 Updated: 2024-02-08 17:27:10
 
 */
+.form-commande {
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+}
 
+.form-commande h3 {
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    padding-bottom: 30px;
+    font-family: 'Syne', sans-serif;
+}
+
+.form-commande div {
+    color: white;
+}
+
+.form-commande input[type="text"],
+.form-commande input[type="email"] {
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 20px;
+	background-color:white;
+}
+
+#bouton-commande {
+    background-color: #E0B9B4;
+    padding: 10px 70px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+#bouton-commande:hover {
+    color: #ffffff;
+    background-color: #C02E44;
+    border: none;
+}
+
+.bordure {
+    border-right: solid 1px white;
+    padding-right: 90px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-contact {
+    width: 383px;
+}
+
+.form-bouton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-bouton input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-bouton #bouton-contact {
+    background-color: #E0B9B4;
+    padding: 10px 70px;
+    border-radius: 5px;
+}
+
+.form-bouton #bouton-contact:hover {
+    color: #ffffff;
+    background-color: #C02E44;
+    border: none;
+}
+
+.form-contact input[type="text"],
+.form-contact input[type="email"],
+.form-contact textarea {
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 20px;
+	background-color:white;
+}
