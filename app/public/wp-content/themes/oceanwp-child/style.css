@@ -31,14 +31,16 @@ Updated: 2024-02-08 17:27:10
 .form-commande input[type="text"],
 .form-commande input[type="email"] {
     border: none;
+    font-family: 'Syne', sans-serif;
     border-radius: 7px;
+    font-weight: 400;
     margin-bottom: 20px;
 	background-color:white;
 }
 
 #bouton-commande:hover {
     color: #ffffff;
-    background-color: #C02E44;
+    background-color: #ffffff;
     border: none;
 }
 
@@ -62,19 +64,39 @@ form {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* background-color: #000000; */
+}
+
+.form-bouton #bouton-commande {
+    background-color: #e0b9b4;
+    text-transform: none;
+    font-family: 'Syne', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 20px;
+    border-radius: 5px;
 }
 
 .form-bouton input {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* color: #000000; */
 }
 
 .form-bouton #bouton-contact {
     background-color: #E0B9B4;
-    padding: 10px 70px;
+    padding: 20px 70px;
     border-radius: 5px;
+    font-weight: 400;
+    font-family: 'Syne', sans-serif;
+    font-size: 15px;
+    text-transform: none;
 }
+
+/* .form-button::first-letter #bouton-contact {
+    text-transform: uppercase;
+} */
 
 .form-bouton #bouton-contact:hover {
     color: #ffffff;
@@ -86,22 +108,30 @@ form {
 .form-contact input[type="email"],
 .form-contact textarea {
     border: none;
+    font-family: 'Syne', sans-serif;
+    font-size: 20px;
     border-radius: 7px;
     margin-bottom: 20px;
 	background-color:white;
 }
 
-#menu-item-213 {
-    /* background-color: #C02E44; */
+#menu-item-212 {
+    font-family: 'Syne', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
 }
 
-/* #menu-item-213 {
-    background-color: #d4928e;
-    color: white; 
-    padding: 10px 20px; 
-    border: none; 
-    border-radius: 5px; 
-    font-size: 16px; 
-    font-weight: bold; 
-    cursor: pointer; 
-  } */
+#menu-item-213 a {
+    color: white;
+  }
+
+.elementor-18 .e-con-inner,
+.elementor-18 .e-child {
+    padding-bottom: 0px;
+}
+
+.boutton-admin {
+    font-family: 'Syne', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
